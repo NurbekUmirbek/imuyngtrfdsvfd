@@ -608,8 +608,18 @@ margin: 0 auto;
     display: none;
 }
 @media (max-width:414px) {
+     *{
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+        list-style: none;
+        border: none;
+    
+    }
     .container{
         max-width: 333px;
+        margin: 0 auto;
     }
     .nav-list{
         display: none;
